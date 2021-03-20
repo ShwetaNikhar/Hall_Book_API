@@ -1,0 +1,26 @@
+<html>
+   <body>
+
+    <form action = "http://localhost:8000/addBooking" method = "POST">
+        <h2>To Book a Room</h2>
+        Customer Name: <input type = "text" name = "name" id="name">  <br>
+        Date <input type="date"><br>
+        Start Time <input type="time"><br>
+        End Time <input type="time"><br>
+        
+        <input type = "submit" value = "Submit">
+     </form>
+      
+      <form action = "http://localhost:8000/addRoom" method = "POST">
+        <h2>
+            To Add a New Room into System
+        </h2>
+         Room Name: <input type = "text" name = "name" id="name">  <br>
+         No. of seats:- <input type = "text" name = "seats">
+         Amenities :- <input type="text" name="ameneties" id="ameneties">
+         Price <input type="text" name="price" id="price">
+         <input type = "submit" value = "Submit">
+      </form>
+      
+   </body>
+</html>
